@@ -1,0 +1,95 @@
+body {
+    background-color: lightblue;
+}
+
+a , a:hover {
+    color:  blue;
+}
+
+#mybar {
+    border-radius: 0px;
+    background-color: black;
+}
+
+#mybar.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; 
+     
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    font-weight:  bold;
+    color: orange;
+    text-shadow: 2px 2px 5px red;
+    font-size: 2.0em;
+    padding-left: 20px;
+}
+
+/* style of menu button */
+.navbar-default .navbar-toggle {
+    border-color: orange;
+    color: orange    
+}
+
+/* color of the icon-bar on menu button */
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: orange !important;
+}
+
+/* colors of menu items */
+.navbar-default .navbar-nav > li > a {
+    color: orange;
+    font-size: 1.2em;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: yellow;
+    color: red;
+    font-size: 1.5em;
+    font-weight:  bolder;
+}
+
+
+#header.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#header h1 {
+    color: var(--black);
+    color: green;
+    text-align: center;
+}
+
+
+#content.container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+#content section {
+    margin: 10px;
+    margin-bottom: 30px;
+    padding: 5px;
+	border: 1px solid black;
+    background-color: grey;
+}
+#content h2{
+    padding-top: 10px;
+    text-align: center;
+    color: black;
+}
+#content p {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+#content .section-chicken {
+	background-color: LightGray;
+}
+
+#content .section-beef {
+	background-color: Orange;
+}
+#content .section-sushi {
+	background-color: MediumSeaGreen;
+}
+
